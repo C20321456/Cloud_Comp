@@ -41,3 +41,4 @@ COPY --from=app-zip-creator /app.zip /usr/share/nginx/html/assets/app.zip
 COPY --from=build /app/site /usr/share/nginx/html
 
 #THIS IS A NEW COMMENT
+#THIS IS A second edit
